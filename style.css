@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+.degrade{
+    background: linear-gradient(blue, #00FFFF, #886fe4, rgb(113, 51, 194));
+}
+
+#comida-no-lixo{
+    width: 25%;
+    padding: 25px;
+}
+
+h2{
+    display: inline-block;
+    padding:24px 0;
+    color: white;
+}
+
+.desperdicio-de-comida{
+    display:flex; 
+}
+
+.titulo-um{
+    margin-top: 50px;
+    font-weight: bold;
+    color:white;
+    font-size: 24px;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.paragrafo-comida-desperdicio{
+    margin-top: 120px;
+    margin-right: 100px;
+    color: black;
+    font-size: 16px;
+}
+
+.consumidor-consiente{
+    display: flex;
+    align-items: center;
+    
+}
+
+.consumidor-consi{
+    width: 25%;
+    margin-left: 73%;
+    margin-top: 15px;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.titulo-dois{
+    margin-top: 50px;
+    font-weight: bold;
+    color:white;
+    font-size: 24px;
+    text-align: left; 
+}
