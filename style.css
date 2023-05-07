@@ -3,63 +3,657 @@
     margin: 0;
   }
 
-.degrade{
-    background: linear-gradient(blue, #00FFFF, #886fe4, rgb(113, 51, 194));
-}
 
-#comida-no-lixo{
-    width: 25%;
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
     padding: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-h2{
-    display: inline-block;
-    padding:24px 0;
-    color: white;
+.cabecalho-principal{
+    background: black;
 }
 
-.desperdicio-de-comida{
-    display:flex; 
-}
-
-.titulo-um{
-    margin-top: 50px;
-    font-weight: bold;
-    color:white;
-    font-size: 24px;
+.junto{
+    overflow: auto;
 
 }
 
-ul{
-    list-style-type: none;
-}
-
-.paragrafo-comida-desperdicio{
-    margin-top: 120px;
-    margin-right: 100px;
-    color: black;
-    font-size: 16px;
-}
-
-.consumidor-consiente{
-    display: flex;
-    align-items: center;
-    
-}
-
-.consumidor-consi{
-    width: 25%;
-    margin-left: 73%;
-    margin-top: 15px;
+.comida-desperdicio{
     float: left;
     margin-right: 10px;
-    
 }
 
-.titulo-dois{
+.conteudo-desperdicio-alimento1{
+    font-size: 20px;
     margin-top: 50px;
-    font-weight: bold;
-    color:white;
-    font-size: 24px;
-    text-align: left; 
+    text-align: center;
 }
+
+.conteudo-desperdicio-alimento{
+    font-size: 20px;
+    text-align: center;
+}
+
+.cabecalho-comida{
+    background: black;
+}
+
+.logo-alimento{
+    width: 350px;
+}
+
+.conteudo-definicao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+   
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em 0;
+    margin-left: 5px;
+}
+
+.informacao-comida{
+    font-size: 17px;
+    margin-top: 10px;
+  
+}
+
+a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:focus {
+    color: red;
+  }
+  
+  a:hover {
+    color: green;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+
+  a {
+    border: 1px solid black;
+  }
+
+  a{
+    margin-left: 5px;
+   
+  }
+  
+  a {
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: rgb(0, 255, 34);
+  }
+  a {
+    color: inherit;
+}
+
+
+a:hover {
+    border-color: rgb(221, 132, 73);
+}  
+
+a {
+    border-width: 2px 1px 3px 1px;
+    border-radius: 10px;
+}
+
+li{
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+  }
+
+  .definicao-titulo-comida {
+    text-align: center;
+    position: relative;
+  }
+  .definicao-titulo-comida:before,
+  .definicao-titulo-comida:after {
+    content: "";
+    width: 43%;
+    height: 5px;
+    background: #26e443;
+    position: absolute;
+    top: 50%;
+  }
+  .definicao-titulo-comida:before {
+    left: 0;
+  }
+  .definicao-titulo-comida:after {
+    right: 0;
+  }
+  
+ .definicao-titulo-comida{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.definicao-titulo-comida{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.estatistica-titulo-comida {
+    text-align: center;
+    position: relative;
+  }
+  .estatistica-titulo-comida:before,
+  .estatistica-titulo-comida:after {
+    content: "";
+    width: 32%;
+    height: 5px;
+    background: #26e443;
+    position: absolute;
+    top: 50%;
+  }
+  .estatistica-titulo-comida:before {
+    left: 0;
+  }
+  .estatistica-titulo-comida:after {
+    right: 0;
+  }
+  
+ .estatistica-titulo-comida{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.estatistica-titulo-comida{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-estatistica{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-indent: 1em;
+    padding: 0.5em 0;
+}
+
+.conteudo-estatistica-continuacao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+   
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em 0;
+    margin-left: 5px;
+}
+
+.conteudo-causa{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+   
+    text-indent: 1em;
+    padding: 0.5em 0;
+}
+
+.causa-titulo-comida {
+    text-align: center;
+    position: relative;
+  }
+  .causa-titulo-comida:before,
+  .causa-titulo-comida:after {
+    content: "";
+    width: 27%;
+    height: 5px;
+    background: #26e443;
+    position: absolute;
+    top: 50%;
+  }
+  .causa-titulo-comida:before {
+    left: 0;
+  }
+  .causa-titulo-comida:after {
+    right: 0;
+  }
+  
+ .causa-titulo-comida{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.causa-titulo-comida{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-causa-continuacao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em 0;
+    margin-left: 5px;
+}
+.impacto-titulo-comida {
+    text-align: center;
+    position: relative;
+  }
+  .impacto-titulo-comida:before,
+  .impacto-titulo-comida:after {
+    content: "";
+    width: 36%;
+    height: 5px;
+    background: #26e443;
+    position: absolute;
+    top: 50%;
+  }
+  .impacto-titulo-comida:before {
+    left: 0;
+  }
+  .impacto-titulo-comida:after {
+    right: 0;
+  }
+  
+ .impacto-titulo-comida{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.impacto-titulo-comida{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-impacto{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-indent: 1em;
+    padding: 0.5em 0;
+}
+
+.conteudo-impacto-continuacao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em 0;
+    margin-left: 5px;
+}
+
+.inseguranca-titulo-comida {
+    text-align: center;
+    position: relative;
+  }
+  .inseguranca-titulo-comida:before,
+  .inseguranca-titulo-comida:after {
+    content: "";
+    width: 31%;
+    height: 5px;
+    background: #26e443;
+    position: absolute;
+    top: 50%;
+  }
+  .inseguranca-titulo-comida:before {
+    left: 0;
+  }
+  .inseguranca-titulo-comida:after {
+    right: 0;
+  }
+  
+ .inseguranca-titulo-comida{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.inseguranca-titulo-comida{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-inseguranca{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-indent: 1em;
+    padding: 0.5em 0;
+}
+
+.conteudo-inseguranca-continuacao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em 0;
+    margin-left: 5px;
+}
+
+.solucoes-titulo-comida{
+    text-align: center;
+    position: relative;
+  }
+  .solucoes-titulo-comida:before,
+  .solucoes-titulo-comida:after {
+    content: "";
+    width: 33%;
+    height: 5px;
+    background: #26e443;
+    position: absolute;
+    top: 50%;
+  }
+  .solucoes-titulo-comida:before {
+    left: 0;
+  }
+  .solucoes-titulo-comida:after {
+    right: 0;
+  }
+  
+ .solucoes-titulo-comida{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.solucoes-titulo-comida{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-solucao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-indent: 1em;
+    padding: 0.5em 0;
+}
+
+.conteudo-solucao-continuacao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em 0;
+    margin-left: 5px;
+}
+
+.papel-titulo-comida{
+    text-align: center;
+    position: relative;
+  }
+  .papel-titulo-comida:before,
+  .papel-titulo-comida:after {
+    content: "";
+    width: 33%;
+    height: 5px;
+    background: #26e443;
+    position: absolute;
+    top: 50%;
+  }
+  .papel-titulo-comida:before {
+    left: 0;
+  }
+  .papel-titulo-comida:after {
+    right: 0;
+  }
+  
+ .papel-titulo-comida{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.papel-titulo-comida{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-papel{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-indent: 1em;
+    padding: 0.5em 0;
+}
+
+h3{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.conteudo-papel-continuacao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em 0;
+    margin-left: 5px;
+}
+
+.politica-titulo-comida{
+    text-align: center;
+    position: relative;
+  }
+  .politica-titulo-comida:before,
+  .politica-titulo-comida:after {
+    content: "";
+    width: 35%;
+    height: 5px;
+    background: #26e443;
+    position: absolute;
+    top: 50%;
+  }
+  .politica-titulo-comida:before {
+    left: 0;
+  }
+  .politica-titulo-comida:after {
+    right: 0;
+  }
+  
+ .politica-titulo-comida{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.politica-titulo-comida{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-politica{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+   
+    text-indent: 1em;
+    padding: 0.5em 0;
+}
+
+.conteudo-politica-continuacao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+  
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em 0;
+    margin-left: 5px;
+}
+
+.iniciativa-titulo-comida{
+    text-align: center;
+    position: relative;
+  }
+  .iniciativa-titulo-comida:before,
+  .iniciativa-titulo-comida:after {
+    content: "";
+    width: 35%;
+    height: 5px;
+    background: #26e443;
+    position: absolute;
+    top: 50%;
+  }
+  .iniciativa-titulo-comida:before {
+    left: 0;
+  }
+  .iniciativa-titulo-comida:after {
+    right: 0;
+  }
+  
+ .iniciativa-titulo-comida{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.iniciativa-titulo-comida{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-iniciativa{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+   
+    text-indent: 1em;
+    padding: 0.5em 0; 
+}
+
+.conteudo-iniciativa-continuacao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em 0;
+    margin-left: 5px;
+}
+
+.educacao-titulo-comida{
+    text-align: center;
+    position: relative;
+  }
+  .educacao-titulo-comida:before,
+  .educacao-titulo-comida:after {
+    content: "";
+    width: 33%;
+    height: 5px;
+    background: #26e443;
+    position: absolute;
+    top: 50%;
+  }
+  .educacao-titulo-comida:before {
+    left: 0;
+  }
+  .educacao-titulo-comida:after {
+    right: 0;
+  }
+  
+ .educacao-titulo-comida{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.educacao-titulo-comida{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo-educacao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-indent: 1em;
+    padding: 0.5em 0; 
+}
+
+.conteudo-educacao-continuacao{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1em;
+    
+    text-align: justify;
+    text-indent: 1em;
+    padding: 0.5em 0;
+    margin-left: 5px;
+}
+
+
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .dark-theme {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
