@@ -3,7 +3,11 @@
     margin: 0;
   }
 
-
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
 
 .titulo{
     text-align: center;
